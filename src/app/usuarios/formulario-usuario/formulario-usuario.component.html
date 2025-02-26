@@ -1,0 +1,6 @@
+<form [formGroup]="usuarioForm" (ngSubmit)="guardarUsuario()">
+    <input formControlName="nombre" placeholder="Nombre">
+    <input formControlName="telefono" placeholder="Teléfono">
+    <input formControlName="email" placeholder="Email">
+    <button type="submit">Guardar</button>
+</form>
